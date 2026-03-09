@@ -1,0 +1,30 @@
+#:schema node_modules/wrangler/config-schema.json
+
+name = "pump-fun-mcp"
+main = "src/index.ts"
+compatibility_date = "2025-01-29"
+compatibility_flags = ["nodejs_compat"]
+
+# Custom domain — picks up any available subdomain or path route you configure
+# in Cloudflare DNS. Examples:
+#   pump.modelcontextprotocol.name  (subdomain)
+#   modelcontextprotocol.name/mcp/pump-fun-sdk  (path-based via route below)
+#
+# Uncomment the one that matches your setup:
+# [route]
+# pattern = "modelcontextprotocol.name/mcp/pump-fun-sdk/*"
+# custom_domain = true
+
+# Alternatively, a simple workers.dev subdomain for testing:
+# route = { pattern = "pump-fun-mcp.*.workers.dev/*", custom_domain = false }
+
+[vars]
+# Solana RPC — use a premium endpoint for production
+SOLANA_RPC_URL = "https://api.mainnet-beta.solana.com"
+# Pump.fun API (public, no key needed for reads)
+PUMP_API_URL = "https://frontend-api-v3.pump.fun"
+
+# Optional: bind a KV namespace for caching
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "your-kv-namespace-id"
