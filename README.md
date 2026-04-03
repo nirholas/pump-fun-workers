@@ -1,4 +1,4 @@
-# Pump.fun MCP Server
+# Pump.fun MCP Server 
 
 A Cloudflare Worker that implements the [MCP Streamable HTTP](https://modelcontextprotocol.io/specification/2024-11-05/transport#streamable-http) transport for AI agents to interact with pump.fun on Solana.
 
