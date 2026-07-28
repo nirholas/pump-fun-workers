@@ -22,7 +22,6 @@ All tools are **read-only** — no wallet keys needed. Write operations (buy/sel
 ## Deploy
 
 ```bash
-cd workers/pump-fun-mcp
 npm install
 npx wrangler deploy
 ```
