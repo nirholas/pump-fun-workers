@@ -88,3 +88,7 @@ Cloudflare Worker (MCP Streamable HTTP)
     └── Solana RPC (holder data, on-chain reads)
         └── api.mainnet-beta.solana.com
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=nirholas/pump-fun-workers&type=Date)](https://www.star-history.com/#nirholas/pump-fun-workers&Date)
