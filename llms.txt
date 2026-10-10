@@ -1,0 +1,25 @@
+# pump-fun-workers
+
+> A Cloudflare Worker that implements the MCP Streamable HTTP transport for AI agents to interact with pump.fun on Solana.
+
+pump-fun-workers is an open-source repository by nirholas, part of the three.ws ecosystem.
+
+## Docs
+
+- [README](https://github.com/nirholas/pump-fun-workers/blob/HEAD/README.md): install, usage and reference
+- [Tools (10 read-only tools)](https://github.com/nirholas/pump-fun-workers/blob/HEAD/README.md#tools-10-read-only-tools)
+- [Deploy](https://github.com/nirholas/pump-fun-workers/blob/HEAD/README.md#deploy)
+- [Connect from SperaxOS](https://github.com/nirholas/pump-fun-workers/blob/HEAD/README.md#connect-from-speraxos)
+- [Development](https://github.com/nirholas/pump-fun-workers/blob/HEAD/README.md#development)
+- [Architecture](https://github.com/nirholas/pump-fun-workers/blob/HEAD/README.md#architecture)
+- [AGENTS.md](https://github.com/nirholas/pump-fun-workers/blob/HEAD/AGENTS.md): guidance for coding agents
+- [Full text for LLMs](https://github.com/nirholas/pump-fun-workers/blob/HEAD/llms-full.txt): the README inlined
+
+## Project
+
+- [Source](https://github.com/nirholas/pump-fun-workers)
+- [Issues](https://github.com/nirholas/pump-fun-workers/issues)
+- [Discussions](https://github.com/nirholas/pump-fun-workers/discussions)
+- [Homepage](https://github.com/nirholas/pump-fun-workers)
+- [three.ws](https://three.ws): the platform this is part of
+- [All repositories by nirholas](https://github.com/nirholas/nirholas#readme)
