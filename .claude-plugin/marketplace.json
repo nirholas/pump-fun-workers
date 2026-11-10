@@ -1,0 +1,21 @@
+{
+  "name": "pump-fun-workers",
+  "owner": {
+    "name": "nirholas"
+  },
+  "description": "Run a Cloudflare Worker MCP server with ten read-only pump.fun token tools and query it over Streamable HTTP.",
+  "plugins": [
+    {
+      "name": "pump-fun-workers",
+      "source": "./plugins/pump-fun-workers",
+      "description": "Run a Cloudflare Worker MCP server with ten read-only pump.fun token tools and query it over Streamable HTTP.",
+      "category": "finance",
+      "tags": [
+        "pumpfun",
+        "solana",
+        "mcp",
+        "cloudflare"
+      ]
+    }
+  ]
+}
